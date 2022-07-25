@@ -1,0 +1,43 @@
+.container {
+	max-width: 800px;
+	margin: auto;
+	border: 2px solid #04AA6D;
+	border-radius: 30px;
+	background-color: rgba(255, 255, 255, 0.3);
+	text-align: center;
+}
+
+table, th, td {
+	width: 600px;
+	height: 50px;
+	border: 1px solid #04AA6D;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+td:active{
+	background-color: #3e8e41;
+  	box-shadow: 0 5px #666;
+  	transform: translateY(2px);
+}
+
+#output {
+	font-size: 32px;
+}
+
+button {
+	width: 35%;
+	height: 30px;
+	cursor: pointer;
+	margin-bottom: 15px;
+	margin-top: 30px;
+	color: white;
+	background-color: #04AA6D;
+	border-radius: 10px;
+}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
